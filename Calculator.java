@@ -38,6 +38,7 @@ public class Calculator {
 
 							System.out.println("Adding two numbers...");
 							x = num1 + num2;
+					        System.out.println("Addition of " + num1 + " and " + num2 + " is " + x);
 
 							break;
 
@@ -45,6 +46,7 @@ public class Calculator {
 						case 2:
 							System.out.println("Substracting two numbers");
 							x = num1 - num2;
+							System.out.println("Subtraction of " + num1 + " and " + num2 + " is " + x);
 
 							break;
 
@@ -52,24 +54,30 @@ public class Calculator {
 						case 3:
 							System.out.println("Multiplying two numbers...");
 							x = num1 * num2;
+							System.out.println("Product of " + num1 + " and " + num2 + " is " + x);
 
 							break;
 						
 						case 4:
 							System.out.println("Dividing two numbers");
 							x = num1 / num2;
+							System.out.println("Division of " + num1 + " and " + num2 + " is " + x);
 
 							break;
 
 
 						}
 						
-						System.out.println("Result of " + num1 + " and " + num2 + " is " + x);
+						System.out.println(" ");
 						System.out.println(" ");
 					}
 
 				}
 	
+
+
+	}
+
 
 
 	}
